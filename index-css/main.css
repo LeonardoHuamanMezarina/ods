@@ -1,0 +1,92 @@
+
+/* Info Sections */
+main {
+    flex: 1;
+  }
+
+
+.ods-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #F8F8F8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    border-radius: 46.42px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: -70px;
+} 
+.main-background{
+    background-image: url(img/ods_img_lp01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.main-ods{
+    padding: 50px 20px 180px;
+}
+
+.main-container{
+    padding: 0 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.buttom-ods {
+    padding: 30px 0 ;
+    
+}    
+.ods-text h3 {
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(44, 142, 199);
+}
+
+.ods-text p {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 700;   
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+
+
+#ods-img {
+    padding: 40px 0;
+    width: 800px;
+}
+#cliente {
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: auto;
+    z-index: 10; 
+} 
+.main-ods button{
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 1.2rem 2rem;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.main-ods button:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    background-color: #f39c12;
+    color: #fff;    
+}
+

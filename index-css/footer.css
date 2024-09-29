@@ -1,0 +1,90 @@
+
+/*@media = para pantalla de celular*/
+
+/*Pading - border - margin */
+
+footer {
+    padding: 0 40px;
+    background-color: #0B1D26;
+    color: #d1d1d1;
+}
+
+.list {
+    display: flex;
+    padding: 20px 0;
+}
+.list div {
+    width: 10%;
+    padding: 0 80px;
+}
+.contact{
+    padding-left: 60px;
+}
+.footer-1 a {
+    text-decoration: none;
+}
+
+.footer-1 ul{
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    font-weight: 600;
+}
+.list a {
+    color: #d1d1d1;
+}
+.contact form {
+    display: flex;
+    gap: 50%;
+}
+.contact input {
+    
+    background-color: #222831;
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #566173;
+    border-radius: 4px;
+    outline: none;
+}
+
+.contact button {
+    padding: 10px 20px;
+    background-color: #F69C0B;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover{
+    background-color: #e76f51;
+    
+}
+.footer-2{
+
+    display: flex;
+}
+
+
+.ods-2024 ul{
+    padding: 0;
+    gap: 3rem;
+    list-style: none;
+    display: flex;
+}
+.redes-sociales{
+    margin-left: auto;
+}
+
+.redes-sociales ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+
+

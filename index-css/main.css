@@ -90,3 +90,18 @@ main {
     color: #fff;    
 }
 
+.auto-type {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    display: block;
+    padding: 10px 0;
+    font-size: 20px;
+    color: white;
+}
+
+.ods-text h1 {
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(44, 142, 199);
+}
